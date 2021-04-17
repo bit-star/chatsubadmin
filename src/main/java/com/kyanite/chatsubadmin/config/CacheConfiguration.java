@@ -51,6 +51,8 @@ public class CacheConfiguration {
             createCache(cm, com.kyanite.chatsubadmin.domain.User.class.getName());
             createCache(cm, com.kyanite.chatsubadmin.domain.Authority.class.getName());
             createCache(cm, com.kyanite.chatsubadmin.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.kyanite.chatsubadmin.domain.DdUser.class.getName());
+            createCache(cm, com.kyanite.chatsubadmin.domain.OperationLog.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

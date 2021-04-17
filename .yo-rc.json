@@ -42,7 +42,9 @@
     "jwtSecretKey": "MGNlMzYyYjM0MmNkOTBkZTgyNmRmZjE4OGFmM2RkODhjOTA3MzM5OTkwMDJjODAxNWJmNjM5MTMxOGJjYTUzZGM2OWE3MzJiZDZmODdmZjQ5NGNjNmJjYWE1MmY0NzkwOTA4YzQ3YzA1ZjJkNjA1ZDllOGFmNWJjMWRhNjNmZDk=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["DdUser", "OperationLog"],
+    "lastLiquibaseTimestamp": 1618635210000
   },
   "git-provider": "GitHub",
   "git-company": "bit-star",

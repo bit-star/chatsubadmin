@@ -1,0 +1,28 @@
+{
+  "name": "OperationLog",
+  "fields": [
+    {
+      "fieldName": "time",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "chatid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "setUserList",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "operation_log",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210417045330"
+}
