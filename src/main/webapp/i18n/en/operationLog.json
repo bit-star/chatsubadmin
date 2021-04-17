@@ -1,0 +1,26 @@
+{
+  "chatsubadminApp": {
+    "operationLog": {
+      "home": {
+        "title": "Operation Logs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Operation Log",
+        "createOrEditLabel": "Create or edit a Operation Log",
+        "notFound": "No Operation Logs found"
+      },
+      "created": "A new Operation Log is created with identifier {{ param }}",
+      "updated": "A Operation Log is updated with identifier {{ param }}",
+      "deleted": "A Operation Log is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Operation Log {{ id }}?"
+      },
+      "detail": {
+        "title": "Operation Log"
+      },
+      "id": "ID",
+      "time": "Time",
+      "chatid": "Chatid",
+      "setUserList": "Set User List"
+    }
+  }
+}

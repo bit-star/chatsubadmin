@@ -1,0 +1,26 @@
+{
+  "chatsubadminApp": {
+    "operationLog": {
+      "home": {
+        "title": "Operation Logs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Operation Log",
+        "createOrEditLabel": "创建或编辑 Operation Log",
+        "notFound": "No Operation Logs found"
+      },
+      "created": "Operation Log {{ param }} 创建成功",
+      "updated": "Operation Log {{ param }} 更新成功",
+      "deleted": "Operation Log {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Operation Log {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Operation Log"
+      },
+      "id": "ID",
+      "time": "Time",
+      "chatid": "Chatid",
+      "setUserList": "Set User List"
+    }
+  }
+}

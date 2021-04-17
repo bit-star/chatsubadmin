@@ -1,0 +1,49 @@
+
+
+entity DdUser {
+        unionid String,
+        remark String,
+        userid  String,
+        isLeaderInDepts  String,
+        isBoss  Boolean,
+        hiredDate BigDecimal,
+        isSenior  Boolean,
+        tel  String,
+        department String,
+        workPlace  String ,
+        orderInDepts  TextBlob,
+        mobile  String ,
+        errmsg  String ,
+        active  Boolean,
+        avatar  String ,
+        isAdmin Boolean,
+        isHide Boolean,
+        jobnumber  String,
+        name  String,
+        extattr TextBlob,
+        stateCode  String,
+        position  TextBlob,
+        roles  String
+}
+
+
+entity OperationLog{
+		time Instant,
+        chatid String,
+        setUserList String	
+}
+
+
+
+
+// Set pagination options
+paginate * with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceClass
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
